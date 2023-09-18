@@ -34,5 +34,5 @@ def fight(HP, eHP):
         print('Ты погиб')
     if eHP <= 0:
         print('Враг погиб')
-    return HP
+    return HP, eHP
 fight(HP, eHP)
